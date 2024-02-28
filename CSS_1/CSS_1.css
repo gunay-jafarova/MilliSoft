@@ -1,0 +1,120 @@
+.css-1 p{
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid black;
+    background-color: rgb(166, 204, 221);
+}
+
+.css-1 .p2{
+  
+    text-align: center;
+}
+.css-1 .p3{
+   
+    text-align: right;
+}
+.css-1 .p4{
+   
+    text-align: justify;
+}
+.p5{
+    
+    text-align: justify;
+}
+
+.css-2 p{
+    width: 80%;
+    height: 50px;
+    margin: 20px auto;
+    line-height: 50px;
+    background-color: rgb(233, 233, 233); 
+    text-align: center; 
+}
+.css-2 .p1{
+    font-weight: bold;
+}
+.css-2 .p2{
+    font-style: italic;
+    border: 2px solid blue;
+}
+.css-2 .p3{
+    text-decoration: line-through;
+    border: 4px dotted black;
+}
+.css-2 .p4{
+    text-decoration: overline;
+    border: 3px dashed lightgray;
+}
+.css-2 .p5{
+    text-decoration: underline;
+    border: 5px lightgray;
+    border-style: double;
+}
+.css-2 .p6{
+    border-top:  3px solid purple;
+    border-right: 3px solid yellow;
+    border-bottom: 3px solid red;
+    border-left: 3px solid blue;
+}
+.css-2 .p7{
+    border-style: none dotted double dashed;
+    border-width: none 5px 5px 5px;
+    border-color: transparent purple yellow red;
+}
+.css-3 p{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: silver;
+    width: 20%;
+    padding: 20px 0px 20px 20px;
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 2px solid #000;
+}
+.css-4 p{
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+
+.css-4 p:nth-child(1){
+    border: 5px solid khaki;
+    margin-left: 150px;
+
+}
+.css-4 p:nth-child(2){
+    border: 5px dotted khaki;
+    margin-left: 250px;
+
+
+}
+.css-4 p:nth-child(3){
+    border: 5px dashed khaki;
+    margin-left: 350px;
+
+
+}
+.css-4 p:nth-child(4){
+    border: 5px double khaki;
+    margin-left: 450px
+
+
+}
+
+.css-5 .table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.css_6{
+    box-sizing: border-box;
+    border-color: indianred;
+
+}

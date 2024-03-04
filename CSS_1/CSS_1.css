@@ -113,8 +113,82 @@
 }
 
 
-.css_6{
-    box-sizing: border-box;
-    border-color: indianred;
+.box {
+    background-color: orange;
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin:  50px;
+}
+
+.b1 #b_1{
+    border-radius: 25px;
+}
+.b1 #b_2{
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.b1 #b_3{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.b1 #b_4{
+    border-radius: 100% 0 0 0;
+}
+.b1 #b_5{
+    border-radius: 0 50% 0 50%;
+}
+.b1 #b_6{
+    border-radius: 0 90% 0 90%;
+}
+.b1 #b_7{
+    border-radius: 50% 50% 0 50%;
+}
+.b1 #b_8{
+    border-radius: 50%;
+}
+
+.box7 {
+    width: 500px;
+    height: 100px;
+    margin-left: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box7 .header{
+    background-color: dodgerblue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 50px;
+    padding-left: 5px;
+}
+.box7 .body{
+    background-color: rgb(253, 253, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+.box7 .footer{
+    background-color: dodgerblue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+    padding-left: 5px;
+    font-size: small;
+}
+.box8{
+    width: 350px;
+    margin: 30px;
+    padding: 10px 0px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 20px 10px gray
+}
+.box8 .image1 img{
+    width: 100%;
+    height: 100%;
+}
+.box8 .name_container{
+    padding: 10px 15px;
 
 }

@@ -1,31 +1,102 @@
-
-.box{
+.box {
     display: flex;
     flex-wrap: wrap;
 }
-.box div{
+
+.box div {
     margin: 10px;
     width: 300px;
     height: 100px;
     text-align: center;
     line-height: 100px;
-  }
+}
 
-.box div:nth-child(1){
+.box div:nth-child(1) {
     background-color: rgb(169, 192, 210);
 }
-.box div:nth-child(2){
+
+.box div:nth-child(2) {
     background-color: rgb(241, 88, 27);
 }
-.box div:nth-child(3){
+
+.box div:nth-child(3) {
     background-color: rgb(226, 252, 248);
 }
-.box div:nth-child(4){
+
+.box div:nth-child(4) {
     background-color: rgb(127, 227, 159);
 }
-.box div:nth-child(5){
+
+.box div:nth-child(5) {
     background-color: rgb(245, 145, 32);
 }
-.box div:nth-child(6){
+
+.box div:nth-child(6) {
     background-color: rgb(32, 196, 196);
+}
+
+
+.box1 div {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.box1:nth-child(2) {
+    justify-content: flex-end;
+}
+
+.box1:nth-child(3) {
+    justify-content: space-between;
+}
+
+.box1:nth-child(4) {
+    justify-content: space-evenly;
+}
+
+.first div:nth-child(1) {
+    background-color: blue;
+}
+
+.first div:nth-child(2) {
+    background-color: red;
+}
+
+.first div:nth-child(3) {
+    background-color: green;
+}
+
+.second div:nth-child(1){
+    background-color: grey;
+}
+.second div:nth-child(2){
+    background-color: rosybrown;
+}
+.second div:nth-child(3){
+    background-color: yellow;
+}
+.third div:nth-child(1){
+    background-color: green;
+}
+.third div:nth-child(2){
+    background-color: orange;
+}
+.third div:nth-child(3){
+    background-color: purple;
+}
+.fourth div:nth-child(1){
+    background-color: pink;
+}
+.fourth div:nth-child(2){
+    background-color: rgb(140, 66, 78);
+}
+.fourth div:nth-child(3){
+    background-color: purple;
 }
